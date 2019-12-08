@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Boston AirBnB Analysis</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><b><a href="index.html">Boston<span class="logo_colour">Airbnb</span>Analysis</a></b></h1>
+          <h2><b>Interactive Data Visualization Demo</b></h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- Selected class in the menu to make the selection -->
+          <li><a href="index.html">Intro</a></li>
+          <li><a href="growth.html">Growth in Boston</a></li>
+          <li><a href="location.html">Location vs Price</a></li>
+          <li class="selected"><a href="superhost.html">Superhost</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="content">
+      <h1><b>The Superhost Program</b></h1>
+      <p>The Superhost program celebrates and rewards Airbnb top-rated and most experienced hosts.Becoming the Superhost, the property owner receive the following benefit:</p>
+      <li><b>Earn extra money:</b> Superhosts often benefit from a significant increase in earnings. More visibility and trust from guests can mean more money.</li>
+      <br>
+      <li><b>Attract more guests:</b> Superhost is featured to guests in search results, emails, and more. The Superhost badge is added on the profile and listing to help to stand out.</li>
+      <br>
+      <li><b>Access exclusive rewards:</b> Superhost gets an extra 20% on top of the usual bonus when refer new hosts.</li>
+
+      <!-- Embed Code for Tableau Dashboard from the Tableau portal -->
+      <div class='tableauPlaceholder' id='viz1575751753233' style='position: relative'>
+        <noscript>
+          <a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Su&#47;Superhost1&#47;Superhost&#47;1_rss.png' style='border: none' />
+          </a></noscript><object class='tableauViz'  style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' />
+            <param name='name' value='Superhost1&#47;Superhost' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Su&#47;Superhost1&#47;Superhost&#47;1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' /></object>
+          </div>                
+          <script type='text/javascript'>                    
+            var divElement = document.getElementById('viz1575751753233');                    
+            var vizElement = divElement.getElementsByTagName('object')[0];                    
+            if ( divElement.offsetWidth > 800 ) { vizElement.style.width='850px';vizElement.style.height='577px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='850px';vizElement.style.height='577px';} 
+            else { vizElement.style.width='100%';vizElement.style.height='727px';}                     
+          var scriptElement = document.createElement('script');                    
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+
+      <br>
+      <p><b>Findings:</b></p>
+      <ul>
+          <li>Response rate is the percentage of new inquiries and reservation requests host responded to within 24 hours in the past 30 days. A 90% response rate is the Airbnb Superhost floor requirement.</li>
+          <li>In the month September of 2019, the hosts marked with cross had less than 90% rate. It means they have to improve it in next two months in order to keep the badge.</li>
+      </ul>
+
+
+      </div>
+
+    <div id="content_footer"></div>
+    
+    <div id="footer">
+      <p><a href="index.html">Intro</a> | <a href="growth.html">Growth in Boston</a> | <a href="location.html">Location vs Price </a> | <a href="superhost.html">Superhost</a> | <a href="about.html">About</a></p>
+      <p>Copyright &copy;Siqi Jiang| HTML | CSS | TABLEAU</p>
+    </div>
+    
+  </div>
+</body>
+</html>

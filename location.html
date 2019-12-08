@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Boston AirBnB Analysis</title>
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><b><a href="index.html">Boston<span class="logo_colour">Airbnb</span>Analysis</a></b></h1>
+          <h2><b>Interactive Data Visualization Demo</b></h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- Selected class in the menu to make the selection -->
+          <li><a href="index.html">Intro</a></li>
+          <li><a href="growth.html">Growth in Boston</a></li>
+          <li class="selected"><a href="location.html">Location vs Price</a></li>
+          <li><a href="superhost.html">Superhost</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="content">
+      <!-- Graph One for Location-->
+      <h1><b>Location,Location,Location!</b></h1>
+      <p><b>Findings:</b></p>
+      <ul>
+          <li>Location, Location, Location! Highly rated neighbourhoods are closer to the city hotspots (North End, Freedom Trail, Museums). Bay Village and North End received the top Average location score for the downtown region.</li>
+          <li>Listing prices are largely in line with the location score. Highly rated locations tend to be the most expensive places. For instance, highly priced Waterfront neiborhood has the closest distance to Boston Tea Party Ships & Museum.</li>
+
+      </ul>
+<hr>
+<!-- Embed Code for Tableau Dashboard from the Tableau portal -->
+<div class='tableauPlaceholder' id='viz1575694148133' style='position: relative'>
+  <noscript>
+    <a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Lo&#47;Locationfinal&#47;AirBnB-Location&#47;1_rss.png' style='border: none' /></a>
+  </noscript>
+  <object class='tableauViz'  style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+    <param name='embed_code_version' value='3' /> 
+    <param name='site_root' value='' />
+    <param name='name' value='Locationfinal&#47;AirBnB-Location' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='no' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Lo&#47;Locationfinal&#47;AirBnB-Location&#47;1.png' /> 
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+  </object></div>                
+  <script type='text/javascript'>                    
+    var divElement = document.getElementById('viz1575694148133');                    
+    var vizElement = divElement.getElementsByTagName('object')[0];                    
+    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='850px';vizElement.style.height='800px';} 
+    else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='850px';vizElement.style.height='800px';} 
+  else { vizElement.style.width='100%';vizElement.style.height='1250px';}                     
+var scriptElement = document.createElement('script');                    
+scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+
+<br>    
+<hr>
+<hr>
+<br> 
+
+</br>
+<!-- Graph Two for Location-->
+  <h1><b>Appropriate Property Type</b></h1>
+  <p><b>Findings:</b></p> 
+  <ul>
+  <li>The nature of your market will dictate the best property type to invest in. For example, if you go for the city center of a busy city, it makes the most sense to buy a small apartment with less bedrooms.</li>
+  <li>The property type will determine how attractive your property is to guests, which will push your occupancy rent and hence your rental income up or down. </li>
+</ul>
+<hr>
+  <!-- Embed Code for Tableau Dashboard from the Tableau portal -->
+<div class='tableauPlaceholder' id='viz1575751936027' style='position: relative'>
+  <noscript>
+    <a href='#'>
+      <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;BostonAirBnBLocation&#47;Roomsvslocation&#47;1_rss.png' style='border: none' />
+    </a></noscript>
+    <object class='tableauViz'  style='display:none;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+      <param name='embed_code_version' value='3' /> 
+      <param name='site_root' value='' />
+      <param name='name' value='BostonAirBnBLocation&#47;Roomsvslocation' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='no' />
+      <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Bo&#47;BostonAirBnBLocation&#47;Roomsvslocation&#47;1.png' /> 
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+    </object></div>                
+    <script type='text/javascript'>                    
+      var divElement = document.getElementById('viz1575751936027');                    
+      var vizElement = divElement.getElementsByTagName('object')[0];                    
+      if ( divElement.offsetWidth > 800 ) { vizElement.style.width='850px';vizElement.style.height='750px';} 
+      else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='850px';vizElement.style.height='750px';} else { vizElement.style.width='100%';vizElement.style.height='950px';}                     
+    var scriptElement = document.createElement('script');                    
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+</script>
+
+  <br> 
+</br>
+       </div>
+
+    <div id="content_footer"></div>
+    
+    <div id="footer">
+      <p><a href="index.html">Intro</a> | <a href="growth.html">Growth in Boston</a> | <a href="location.html">Location vs Price </a> | <a href="superhost.html">Superhost</a> | <a href="about.html">About</a></p>
+      <p>Copyright &copy;Siqi Jiang| HTML | CSS | TABLEAU</p>
+    </div>
+    
+  </div>
+</body>
+</html>
